@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom'; // <-- useNavigate for routing
 import Header from '../components/Navbar';
+import Footer from '../components/footer'
 import HouseCard from '../components/HouseCard';
 
 const ghanaRegions = [
@@ -199,6 +200,10 @@ const LandingPage = () => {
 
       {/* Selling Opportunities */}
       <HouseCard />
+
+      <div>
+        <Footer/>
+      </div>
        
     </div>
   );
