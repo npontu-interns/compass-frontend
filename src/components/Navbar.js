@@ -14,16 +14,16 @@ const Navbar = () => {
 
         {/* Navigation Links */}
         <nav className="hidden md:flex space-x-4">
-          <Link to="/buy" className="text-white font-bold hover:text-orange-200">HOME</Link>
-          <Link to="/rent" className="text-white font-bold hover:text-orange-200">INVENTORY</Link>
-          <Link to="/sell" className="text-white font-bold hover:text-orange-200">CONTACT</Link>
-          <Link to="/agents" className="text-white font-bold hover:text-orange-200">ABOUT US</Link>
-          <Link to="/explore" className="text-white font-bold hover:text-orange-200">LISTING YOUR HOUSE</Link>
+          <Link to="/landingpage" className="text-white font-bold hover:text-orange-200">Home</Link>
+          <Link to="/inventry" className="text-white font-bold hover:text-orange-200">Inventory</Link>
+          <Link to="/contact" className="text-white font-bold hover:text-orange-200">Contact</Link>
+          <Link to="/about us" className="text-white font-bold hover:text-orange-200">About Us</Link>
+          <Link to="/login" className="text-white font-bold hover:text-orange-200">Listing Your House</Link>
         </nav>
 
         {/* Sign In / Advertise */}
         <div className="hidden md:flex space-x-4">
-          <Link to="/signin" className="text-white font-bold hover:text-orange-200">LOGIN/REGISTER</Link>
+          <Link to="/login" className="text-white font-bold hover:text-orange-200">Login/Register</Link>
         </div>
 
         {/* Mobile Menu Icon */}
