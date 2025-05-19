@@ -112,7 +112,7 @@ function AppContent() {
       <div className="flex-grow">
         <Routes>
           <Route path="/" element={<LandingPage listings={submittedListings} />} />
-          <Route path="/property/:id" element={<PropertyDetailsPage />} />
+          <Route path="/property/:id" element={<PropertyDetailsPage listings={submittedListings} />} />
 
           {/* NEW: Route for the Enquiry Form Page */}
           <Route path="/enquiry/:propertyId" element={
